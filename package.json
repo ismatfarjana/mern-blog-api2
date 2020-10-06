@@ -9,5 +9,19 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.8",
     "nodemon": "^2.0.4"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismatfarjana/mern-blog-api2.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/ismatfarjana/mern-blog-api2/issues"
+  },
+  "homepage": "https://github.com/ismatfarjana/mern-blog-api2#readme",
+  "description": ""
 }
