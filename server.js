@@ -31,6 +31,11 @@ app.get("/", (req, res) => {
   res.send(`The MERN express API is live now!`);
 });
 
+//we have to add the routers here in the server.js file to get the routes access
+const blogsRouter = require("./routes/blogs");
+
+app.use("/blogs", blogsRouter);
+
 //listening to the port
 app.listen(port, () => {
   console.log(` MERN Express API listening on ${port} !`);
